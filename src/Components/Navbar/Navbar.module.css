@@ -1,0 +1,59 @@
+html{
+    font-size : 2.2vh;
+}
+
+.navbarContainer{
+    height : 8vh;
+    width : 100vw;
+    margin-top: -0.9rem;
+    background-color:rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    border-bottom: 1px soild whitesmoke;
+}
+
+.navbarContainer::after{
+    content : "";
+    background: linear-gradient(to bottom, rgb(180, 175, 175), whitesmoke, white);
+    height : 0.5rem;
+    width : 100%;
+    position : absolute;
+    z-index: 10;
+    margin-top : 8vh;
+}
+
+
+
+.navbarImage{
+    margin-top : 0.5rem;
+    height: 3.1rem;
+    width : 5.2rem;
+    margin-left : 8rem;
+}
+
+.navbarContainer li{
+    list-style: none;
+    display: inline-block;
+    margin-top : 0.4rem;
+    text-shadow: 0rcap;
+}
+
+
+a:-webkit-any-link{
+    text-decoration: none;
+    color :  rgb(27, 85, 161);
+    font-weight: 600;
+    transition: text-shadow, font-weight, border-radius, 0.3s ease-in-out;
+}
+
+a:-webkit-any-link:hover{
+    color: rgb(98, 121, 46);
+    text-shadow: 2px 2px 5px grey;
+    font-weight: 1000;
+    font-size:larger;
+    border-radius: 2px;
+}
+
+

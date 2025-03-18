@@ -1,0 +1,69 @@
+.habitListContainer{
+    height: 5.5vh;
+    width : auto;
+    display : flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color:rgba(211, 201, 201, 0.3);
+    margin : 2% 2%;
+    border-radius: 0.8rem;
+    transition : background-color 0.1s ease-in-out, color 0.1s ease-in-out;
+    font-size : 1rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transition: box-shadow 0.3s ease-in-out;
+    border-bottom : 1px solid rgba(56, 54, 54, 0.09);
+    border-top : 1px solid rgba(56, 54, 54, 0.09);
+}
+
+.habitListContainer:hover{
+    cursor: pointer;
+    box-shadow: 5px 5px 4px #888888;
+    color :rgba(0, 0, 0, 0.7);
+    background-color:rgba(222, 212, 212, 0.7);
+}
+
+
+
+
+
+.habitDetails{
+    height : 100%;
+    width : 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 3%;
+    font-size: large;
+    padding : 0.2%;
+    font-weight: 500;
+    
+}
+
+.habitDetails span{
+    margin-top: 3% ;
+
+}
+
+.habitDetails small{
+    margin-bottom: 10%;
+}
+
+
+/* .habitListImg{
+    height :75%;
+    width :11%;
+    margin-top : 0.5%;
+    margin-right :40%;
+} */
+
+.habitListContainer img:hover{
+    /* box-shadow: 1px 0px 1px 1px whitesmoke; */
+    /* background-color: whitesmoke; */
+    /* border-radius: 40%; */
+    /* padding: 1%; */
+    transform: scale(0.9);
+}
+
+
+
+

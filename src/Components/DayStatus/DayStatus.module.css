@@ -1,0 +1,54 @@
+.dayCard{
+    height : 15%;
+    width : 30%;
+    margin-left: 2.5%;
+    margin-top : 1%;
+    /* margin-bottom: -15%; */
+    /* background-color: rgb(255, 255, 255); */
+    text-align: center;
+    border-right : 2px solid rgba(19, 19, 19,0.3);
+    
+}
+
+.dayCard hr{
+    width : 60%;
+    height : 0.2%;
+}
+
+
+
+.btn {
+    display: flex; /* Align icons horizontally */
+    justify-content: center;
+    align-items: center;
+    gap: 3%;; 
+    padding: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+
+
+.check {
+    font-size: 24px; /* Icon size */
+    color: white; /* Icon color */
+    transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.checked{
+    font-size: 24px; /* Icon size */
+    color: green; /* Icon color */
+    transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.check:hover{
+    transform: scale(1.2); /* Slight zoom on hover */
+    color: rgb(91, 91, 72); /* Change color on hover */
+}
+
+.crossed{
+    font-size: 24px; /* Icon size */
+    color: red; /* Icon color */
+    transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
+}

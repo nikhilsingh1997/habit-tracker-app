@@ -1,0 +1,36 @@
+.quoteContainer{
+    height : 13vh;
+    width : auto;
+    margin-left:5vw;
+    margin-top : 7.5vh;
+    margin-right : 5vw;
+    padding : 0.2rem;
+    border-radius : 1rem;
+    background: url("https://wallpapershome.com/images/pages/pic_h/11927.jpg");
+    background-repeat: no-repeat;
+    background-size:auto;
+    background-position: center;
+    box-shadow: 10px 10px 8px #888888;
+    background-color: red;
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.quoteContainer:hover{
+    box-shadow: 10px 10px 8px #d7b8b8;
+}
+
+.quotes{
+    margin-left : 1rem;
+    margin-right : 1rem;
+    margin-top : 0.5rem;
+    height : 4rem;
+    text-align: center;
+    font-weight: 800;
+    font-style: italic;
+    font-family :'Times New Roman', serif;
+    color: rgb(170, 27, 27);
+    text-shadow: 3px 3px 1px lightblue;
+    display: flex;
+    flex-direction: column;
+}
+

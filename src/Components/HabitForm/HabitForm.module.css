@@ -1,0 +1,71 @@
+.habitFormContainer{
+    margin-left: 10rem;
+    margin-top : 5rem;
+    height : 13.5rem;
+    width  : 34rem;
+    background-color: white;
+    border-radius: 1rem;
+    padding : 0.1rem 1rem;
+    box-shadow: 10px 10px 8px #888888;
+    transition: box-shadow 0.2s ease-in-out;
+}
+
+.habitFormContainer h3{
+    text-align: center;
+}
+
+.habitFormContainer hr{
+    width : 80%;
+}
+
+.habitFormContainer form{
+    display: flex;
+    flex-direction: column;
+    width : 80%;
+    align-items : center;
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.habitFormContainer form label{
+    margin-left : -18rem;
+    margin-top: 0.5rem;
+}
+
+.habitFormContainer form input{
+    margin-left: 4.5rem;
+    width : 90%;
+    margin-top: 0.4rem;
+    padding: 0.2rem;
+    font-size: medium;
+    font-style:inherit;
+    border : 2px solid rgb(68, 26, 26);
+    border-radius : 0.3rem;
+}
+
+.habitFormContainer button{
+    margin-top : 1rem;
+    margin-right : -27.2rem;
+    height:auto;
+    width : 2.5rem;
+    padding : 0.35rem;
+    background-color: rgb(53, 197, 154);
+    border-radius: 0.3rem;
+    color:white;
+    border : none;
+    font-weight: 500;
+    font-size : medium;
+    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+}
+
+.habitFormContainer:hover{
+    box-shadow: 10px 10px 8px rgb(117, 104, 92);
+}
+
+.habitFormContainer button:hover{
+    background-color:rgb(102, 208, 174);
+    color : whitesmoke;
+    cursor: pointer;
+    box-shadow: 3px 3px 3px grey;
+}
+

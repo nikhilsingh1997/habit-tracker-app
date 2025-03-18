@@ -1,12 +1,30 @@
+import  Navbar from "./Components/Navbar/Navbar";
+import { createBrowserRouter, RouterProvider } from "react-router";
+import { HomePage } from "./Pages/HomePage/HomePage";
+import { DetailsPage } from "./Pages/DetailsPage/DetailsPage";
+import { WeekStatus } from "./Components/WeekStatus/WeekStatus";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <p>Hello</p>
-      </header>
-    </div>
+  const router = createBrowserRouter([
+    { path : "/", 
+      element : <Navbar/>, 
+      children : [
+        { index : true, element : <HomePage/> },
+        { path : "detailspage", 
+          element : <DetailsPage/>, 
+          children : [
+            { path : ":habitId", element : <WeekStatus/> }
+          ]}
+    ]}
+  ]);
+
+
+
+  return (<>
+      <RouterProvider router={router} />
+      </>
+    
   );
-}
+};
 
 export default App;

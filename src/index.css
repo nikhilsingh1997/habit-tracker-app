@@ -1,0 +1,9 @@
+.pageContainer{
+    background: linear-gradient(to top, rgb(135, 130, 130), rgb(144, 139, 139), white);
+    width : 100vw;
+    height: 94vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}

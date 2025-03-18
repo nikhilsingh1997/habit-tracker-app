@@ -1,0 +1,90 @@
+.pageContainer{
+    background: linear-gradient(to top, rgb(135, 130, 130), rgb(144, 139, 139), white);
+    width : 100vw;
+    height: 94vh;
+    /* display: flex;
+    flex-direction: column; */
+}
+
+.infoContainer{
+    margin-right : 4vw;
+    margin-left :  4vw;
+    margin-top : 1rem;
+    margin-bottom : 0.2rem ;
+    width : 92vw;
+    height : 5vh;
+    background-color: rgba(155, 190, 72, 0.1);
+    border-radius: 1rem;
+    display : flex;
+    justify-content: space-between;
+}
+
+
+.contentContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* background-color: azure; */
+}
+
+.text {
+    margin-left: 2vw;
+    margin-top: 0.8%;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 2px;
+   
+    
+}
+
+.msg{
+    color: rgb(98, 136, 136);
+    text-shadow: 0px 0px 10px rgb(99, 80, 191);
+}
+
+.date{
+    color: rgb(255, 255, 255);
+    text-shadow: 3px 3px 10px rgb(0, 0, 0);
+    margin-right : 5%;
+}
+
+
+.weekStatusContainer{
+    margin-top: 1%;
+    margin-right : 1%;
+    height : 80vh;
+    width : 60vw;
+    background-color:rgba(227, 221, 221, 0.3);
+    margin-left : 1vw; 
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    border : 1px space grey;
+}
+
+.habitListContainer{
+    margin-top: 1%;
+    margin-left : 1%;
+    height : 80vh;
+    width : 30vw;
+    background-color: rgba(221, 228, 205, 0.3);
+    border-radius: 1rem;
+    overflow: scroll;
+}
+
+.weekStatusMsg{
+    height : auto;
+    width : 50%;
+    margin-right: 2%;
+    margin-left: 2%;
+    margin-top: 2% ;
+    padding : 1%;
+    margin-bottom: -1%;
+    background-color: rgba(252, 249, 249, 0.2);
+    text-align: center;
+    color : rgba(154, 136, 5, 0.7);
+    border-radius: 10px;
+    border-bottom: 1px solid rgba(118, 116, 116, 0.1);
+    font-weight: 550;
+}
