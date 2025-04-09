@@ -2,7 +2,7 @@ import styles from "./DetailsPage.module.css";
 import { HabitList } from "../../Components/HabitList/HabitList";
 import { Outlet, useParams } from "react-router";
 
-
+// Just adding comment for feature branch 1 in order to make a change.
 const DetailsPage = ()=>{
 
     const { habitId } = useParams();
